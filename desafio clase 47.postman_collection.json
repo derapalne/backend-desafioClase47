@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "03601ca9-5749-4c7a-88e3-88e0672c6705",
+		"name": "desafio clase 47",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18145073"
+	},
+	"item": [
+		{
+			"name": "post prod",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Pepe\",\r\n    \"price\": 8,\r\n    \"description\": \"PepeArgento\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9999/prods/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"prods",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Prod Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9999/prods/62f98f27061a6b0b9862937a",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"prods",
+						"62f98f27061a6b0b9862937a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Prod Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9999/prods/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"prods",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put Prod Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Coquituo\",\r\n    \"price\": 8000,\r\n    \"description\": \"CoquiArgentum\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9999/prods/62f9947d177fb68d885a9d50",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"prods",
+						"62f9947d177fb68d885a9d50"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Prods",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9999/prods/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9999",
+					"path": [
+						"prods",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
